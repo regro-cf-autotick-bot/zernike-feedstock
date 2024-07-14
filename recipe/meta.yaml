@@ -1,5 +1,5 @@
 {% set name = "zernike" %}
-{% set version = "0.0.32" %}
+{% set version = "0.0.33" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/zernike-{{ version }}.tar.gz
-  sha256: 00120a8552301b1d82161d9e86ef7c08cb275bea09798437c5be7728f5d28073
+  sha256: 1cb57e77e503952932e157ab91253a8154d66d0f539d19fa0ad7860cfee92043
 
 build:
   noarch: python
